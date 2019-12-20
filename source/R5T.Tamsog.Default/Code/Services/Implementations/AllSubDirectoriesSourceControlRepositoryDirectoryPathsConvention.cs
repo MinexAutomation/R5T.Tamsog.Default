@@ -5,7 +5,7 @@ using System.IO;
 using R5T.Tamsog.Types;
 
 
-namespace R5T.Tamsog.Default.Code.Services.Implementations
+namespace R5T.Tamsog.Default
 {
     public class AllSubDirectoriesSourceControlRepositoryDirectoryPathsConvention : ISourceControlRepositoryDirectoryPathsConvention
     {
