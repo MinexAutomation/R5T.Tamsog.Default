@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using R5T.Tamsog.Types;
+using R5T.Tamsog.Types;using R5T.T0064;
 
 
 namespace R5T.Tamsog.Default
-{
-    public class SourceControlRepositoryDirectoryPathsProvider : ISourceControlRepositoryDirectoryPathsProvider
+{[ServiceImplementationMarker]
+    public class SourceControlRepositoryDirectoryPathsProvider : ISourceControlRepositoryDirectoryPathsProvider,IServiceImplementation
     {
         private ISourceControlUserDirectoryPathsProvider SourceControlUserDirectoryPathsProvider { get; }
         private ISourceControlRepositoryDirectoryPathsConvention SourceControlRepositoryDirectoryPathsConvention { get; }

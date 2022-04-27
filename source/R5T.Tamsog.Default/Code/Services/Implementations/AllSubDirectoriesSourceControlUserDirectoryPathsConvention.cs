@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
-using R5T.Tamsog.Types;
+using R5T.Tamsog.Types;using R5T.T0064;
 
 
 namespace R5T.Tamsog.Default
-{
-    public class AllSubDirectoriesSourceControlUserDirectoryPathsConvention : ISourceControlUserDirectoryPathsConvention
+{[ServiceImplementationMarker]
+    public class AllSubDirectoriesSourceControlUserDirectoryPathsConvention : ISourceControlUserDirectoryPathsConvention,IServiceImplementation
     {
         public IEnumerable<SourceControlUserDirectoryPath> GetSourceControlUserDirectoryPaths(SourceControlRootDirectoryPath sourceControlRootDirectoryPath)
         {

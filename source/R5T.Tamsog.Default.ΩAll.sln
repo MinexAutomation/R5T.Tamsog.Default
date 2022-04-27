@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Tamsog.Default.Construc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Tamsog.Default.Testing", "R5T.Tamsog.Default.Testing\R5T.Tamsog.Default.Testing.csproj", "{C9ACE09E-B40C-4AF2-8361-049D0286CE7B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{A010B044-082C-4177-8B8D-3E563F69E910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{C9ACE09E-B40C-4AF2-8361-049D0286CE7B}.Release|x64.Build.0 = Release|Any CPU
 		{C9ACE09E-B40C-4AF2-8361-049D0286CE7B}.Release|x86.ActiveCfg = Release|Any CPU
 		{C9ACE09E-B40C-4AF2-8361-049D0286CE7B}.Release|x86.Build.0 = Release|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Debug|x64.Build.0 = Debug|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Debug|x86.Build.0 = Debug|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Release|x64.ActiveCfg = Release|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Release|x64.Build.0 = Release|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D2EC741-308D-45AF-8534-0DB7EDDFF48F} = {A010B044-082C-4177-8B8D-3E563F69E910}
 	EndGlobalSection
 EndGlobal
